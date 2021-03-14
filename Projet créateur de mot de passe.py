@@ -8,5 +8,14 @@ print(random.sample(liste_majuscules_lettres_nombre,nombres_de_caractères))
 
 
 
+nombres_de_caractère=int(input('donner le nombre de caractères du login'))
+liste_majuscules_lettres_nombres='abcdefghijklmnopqrstuvwxyza0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+print(random.sample(liste_majuscules_lettres_nombres,nombres_de_caractère))
+
+
+
+
+
+
 
 #objectif(plus tard): regrouper les  caractéres selectionnés aléatoirement en un seul mot et générer un login pour plus tard.
